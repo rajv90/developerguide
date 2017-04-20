@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install>
+   <contentpack bundled="false">
+<contentpath>CC-Amazon-AWS-Integration.zip</contentpath>
+   </contentpack>
+   <installtype ooonly="false" forceImportBlueprints="false" />
+   <machine>
+      <csa>
+         <protocol>https</protocol>
+		 <host>csata-ws12r2-14.cdl.local</host>
+         <port>8444</port>
+         <user>admin</user>
+         <password>cloud</password>
+      </csa>
+      <oo>
+         <protocol>https</protocol>
+		 <host>csata-ws12r2-14.cdl.local</host>
+         <port>8443</port>
+         <user>admin</user>
+         <password>admin</password>
+      </oo>
+   </machine>
+   <componenttooldbpropertiesfilename>../ComponentTool/config.properties</componenttooldbpropertiesfilename>
+   <contentarchivetooldbpropertiesfilename>../ContentArchiveTool/config.properties</contentarchivetooldbpropertiesfilename>
+</install>
